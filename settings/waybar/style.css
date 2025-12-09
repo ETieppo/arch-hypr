@@ -1,0 +1,45 @@
+/* TODO: update when finish */
+* {
+  color: #b5e8e0;
+}
+
+window#waybar {
+  background-color: transparent;
+}
+
+#custom-arch {
+  padding: 0px 4px 0px 24px;
+  background-color: darkslategray;
+  border-radius: 8px;
+  font-size: 24px;
+}
+
+.modules-right > * *,
+.modules-left > * * {
+  background-color: darkslategray;
+  border-radius: 8px;
+  min-width: 70px;
+}
+
+#idle_inhibitor{
+  padding-left: 8px;
+
+}
+
+.modules-left {
+  border-radius: 8px;
+  /*background-color: darkslategrey;*/
+  color: #b5e8e0;
+  margin-right: 5px;
+}
+
+/* power dropdown */
+menu {
+  border-radius: 15px;
+  background: #161320;
+  color: #b5e8e0;
+}
+
+menuitem {
+  border-radius: 15px;
+}

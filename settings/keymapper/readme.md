@@ -1,3 +1,5 @@
+TODO: create an auto script using $HOME
+
 If you are looking for the MacOS keyboard layout in Linux, maybe it can be a solution depending on youre distro or compositor
 
 # Were 
