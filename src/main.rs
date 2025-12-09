@@ -48,3 +48,5 @@ impl App {
             .into()
     }
 }
+
+fn get_users() {}
