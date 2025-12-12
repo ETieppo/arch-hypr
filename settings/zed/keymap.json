@@ -150,5 +150,51 @@
     "bindings": {
       "ctrl-w": null
     }
+  },
+  {
+    "context": "SettingsWindow",
+    "bindings": {
+      "ctrl-alt-right": "settings_editor::FocusNextFile"
+    }
+  },
+  {
+    "context": "SettingsWindow",
+    "bindings": {
+      "ctrl-alt-left": "settings_editor::FocusPreviousFile"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-end": [
+        "editor::AddSelectionBelow",
+        {
+          "skip_soft_wrap": true
+        }
+      ]
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-home": [
+        "editor::AddSelectionAbove",
+        {
+          "skip_soft_wrap": true
+        }
+      ]
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-shift-down": null
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-shift-up": null
+    }
   }
 ]
