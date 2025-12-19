@@ -1,0 +1,13 @@
+[core]
+        editor = zed
+        pager = cat
+
+[user]
+        name = Tieppo
+        email = tieppo@archlinux
+
+[url "git@github.com:etieppo/"]
+        insteadOf = tieppo:
+
+[url "git@github.com:matheusPascoal/"]
+        insteadOf = leander:
