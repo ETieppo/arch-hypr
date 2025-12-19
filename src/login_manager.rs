@@ -3,7 +3,7 @@ use iced::{
     widget::{column, container, image, row, text, text_input},
 };
 
-fn main() -> iced::Result {
+pub fn login_manager() -> iced::Result {
     iced::application("Input Demo", App::update, App::view)
         .theme(|_| Theme::Dark)
         .run()
