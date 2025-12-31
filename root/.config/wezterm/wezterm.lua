@@ -3,7 +3,7 @@ local config          = wezterm.config_builder()
 local act             = wezterm.action
 
 config.enable_wayland = false
-config.font           = wezterm.font "Iosevka Custom"
+config.font           = wezterm.font("JetBrainsMono Nerd Font")
 
 config.keys           = config.keys or {
   -- você pode ter outros binds aqui
